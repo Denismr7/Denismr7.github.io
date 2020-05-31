@@ -132,7 +132,7 @@ nav {
         span {
             position: relative;
         }
-        span::before {
+        span::after {
             content: "";
             display: inline-block;
             position: absolute;
