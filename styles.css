@@ -206,6 +206,7 @@ nav .contact {
   left: 0.3rem;
   width: 12.5rem;
   height: 0.8rem;
+  border-radius: 2px;
   background-color: #8685ef;
   z-index: -1;
 }
