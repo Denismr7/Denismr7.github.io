@@ -347,6 +347,20 @@ nav .contact {
   color: #ececec;
   cursor: pointer;
   font-size: 1.3rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#about #about-cont-container #about-text .btn-primary:hover {
+  background-color: #12117e;
+}
+
+#about #about-cont-container #about-text .btn-secondary {
+  background-color: #8685ef;
+}
+
+#about #about-cont-container #about-text .btn-secondary:hover {
+  background-color: #12117e;
 }
 
 #tec {
@@ -415,9 +429,7 @@ nav .contact {
 #projects {
   width: 100%;
   z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -973,6 +985,18 @@ nav .contact {
     font-size: 1rem;
     margin-top: 4%;
     width: 80vw;
+  }
+  #about #about-cont-container #about-text div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #about #about-cont-container #personal-photo {
     width: 250px;

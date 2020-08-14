@@ -239,6 +239,16 @@ nav {
                 color: $color2;
                 cursor: pointer;
                 font-size: 1.3rem;
+                transition: $transition;
+            }
+            .btn-primary:hover {
+                background-color: darken($color: $color1, $amount: 45);
+            }
+            .btn-secondary {
+                background-color: $color1;
+                &:hover {
+                    background-color: darken($color: $color1, $amount: 45);
+                }
             }
         }
     }
@@ -282,7 +292,7 @@ nav {
 #projects {
     width: 100%;
     z-index: 1;
-    display: flex;
+    display: none; // Change to flex when we want to show it
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -659,6 +669,11 @@ nav {
                 font-size: 1rem;
                 margin-top: 4%;
                 width: 80vw;
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
             }
             #personal-photo {
                 width: 250px;
