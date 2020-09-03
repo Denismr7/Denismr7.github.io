@@ -91,7 +91,6 @@ nav {
             justify-content: center;
             transition: $transition;
             &:hover {
-                background-color: lighten($color: $nav-bg, $amount: 15);
                 color: $color1;
                 cursor: pointer;
             }

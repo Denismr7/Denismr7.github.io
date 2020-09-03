@@ -140,7 +140,6 @@ nav .nav-link {
 }
 
 nav .nav-link:hover {
-  background-color: #404040;
   color: #8685ef;
   cursor: pointer;
 }
